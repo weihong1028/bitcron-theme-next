@@ -1195,8 +1195,8 @@ pre .javascript .function {
 .posts-expand .post-body img {
   box-sizing: border-box;
   margin: auto;
-  padding: 3px;
-  border: 1px solid #ddd;
+  border-radius: 16px;
+  box-shadow: 0 0 16px 0px #ccc;
 }
 .posts-expand .fancybox img {
   margin: 0 auto;
