@@ -1,0 +1,25 @@
+div.site-meta
+    .custom-logo-site-title
+        a(href='/', rel='start').brand
+            span.logo-line-before: i
+            span.site-title= site.title
+            span.logo-line-after: i
+    if site.configs.sub_title
+        p.site-subtitle= site.configs.sub_title
+
+.site-nav-toggle
+    button
+        span.btn-bar
+        span.btn-bar
+        span.btn-bar
+
+.site-nav
+    ul#menu.menu
+        li.menu-item.menu-item-home
+            a(href='/', rel='section')
+                i.menu-item-icon.fa.fa-fw.fa-home
+                span 首页
+        li.menu-item.menu-item-archive
+            a(href='/archive', rel='section')
+                i.menu-item-icon.fa.fa-fw.fa-archive
+                span 归档
