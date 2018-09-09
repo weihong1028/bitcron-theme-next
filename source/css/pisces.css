@@ -1140,9 +1140,9 @@ pre .javascript .function {
   padding-top: 40px;
 }
 @media (max-width: 767px) {
-  .posts-expand {
+  /* .posts-expand {
     margin: 0 20px;
-  }
+  } */
   .post-body pre,
   .post-body .highlight {
     padding: 10px;
@@ -2862,4 +2862,9 @@ body {
   .post-body {
     text-align: justify;
   }
+}
+
+/* 自定义 */
+.md_block {
+  margin-bottom: 0;
 }
