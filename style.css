@@ -1,0 +1,51 @@
+.archive_part {
+  text-align: center;
+  margin-bottom: 3.5em;
+}
+.archive_part a {
+  display: inline-block;
+  margin: 10px;
+  font-size: 12px;
+}
+.archive_part .sub_info {
+  font-size: 10px;
+  color: #666;
+}
+.post-toc a {
+  font-size: 12px;
+}
+.tab_item {
+  padding-top: 40px;
+}
+/*style patches for NexT*/
+.posts-collapse .collection-title {
+  margin: 60px auto 10px auto;
+}
+.posts-collapse :nth-child(3) {
+  margin-top: 45px;
+}
+/* highlight code window style */
+.highlight {
+  border-top: 2em solid rgba(230, 230, 230, 0.7);
+  -webkit-box-shadow: 0 0.1em 0.5em 0 rgba(0, 0, 0, 0.28);
+  box-shadow: 0 0.1em 0.5em 0 rgba(0, 0, 0, 0.28);
+  position: relative;
+  border-radius: 3px;
+  overflow: initial;
+}
+.highlight pre {
+  padding: 10px;
+}
+.highlight:before {
+  display: block;
+  position: absolute;
+  content: '';
+  top: -1.25em;
+  left: 1em;
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 50%;
+  background-color: #f44;
+  -webkit-box-shadow: 0 0 0 2px #f44, 1.5em 0 0 2px #9b3, 3em 0 0 2px #fb5;
+  box-shadow: 0 0 0 2px #f44, 1.5em 0 0 2px #9b3, 3em 0 0 2px #fb5;
+}
