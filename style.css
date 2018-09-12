@@ -30,11 +30,12 @@
   -webkit-box-shadow: 0 0.1em 0.5em 0 rgba(0, 0, 0, 0.28);
   box-shadow: 0 0.1em 0.5em 0 rgba(0, 0, 0, 0.28);
   position: relative;
-  border-radius: 3px;
+  border-radius: 3px 3px 0 0;
   overflow: initial;
 }
 .highlight pre {
   padding: 10px;
+  border-radius: 0 0 3px 3px;
 }
 .highlight:before {
   display: block;
